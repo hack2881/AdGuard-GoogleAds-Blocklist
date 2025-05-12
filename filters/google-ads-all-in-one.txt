@@ -21,11 +21,15 @@
 ||adssettings.google.com^
 ||pagead-googlehosted.l.google.com^
 ||googleads.g.doubleclick.net^
+||googleads.googleapis.com^
+||adwords.google.com^
+||www.googletagservices.com^
 
 ! === YouTube Ads ===
 ||youtube.com/api/stats/ads^
 ||youtube.com/pagead/^
 ||youtube.com/get_midroll_info^
+||youtube.com/get_video_info?*&adformat=*
 ||googlevideo.com/videoplayback?*&adformat=*
 ||googlevideo.com/videoplayback?*&oad=*
 ||googlevideo.com/videoplayback?*&ctier=A
@@ -39,3 +43,5 @@
 ||services.google.com/fh/files/emsp/*
 ||www.google.com/shopping^
 ||www.google.com/ads^
+||www.googleadservices.com/shopping^
+||apis.google.com/js/shopping^
