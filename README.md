@@ -17,3 +17,4 @@ Gebruik deze lijst in AdGuard (desktop, browser, Android):
 
 ## 📜 Licentie
 MIT License.
+   
