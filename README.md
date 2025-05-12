@@ -1,19 +1,41 @@
-# AdGuard-GoogleAds-Blocklist
+! Alles-in-één Google Ads blokkade (AdGuard Filter)
+! Laatst bijgewerkt: 2025-05-12
+! Blokkeert advertenties van Google, YouTube en Google Shopping
 
-# AdGuard Google Ads Blocklist (All-in-One)
+! === Google Ads ===
+||googleadservices.com^
+||pagead2.googlesyndication.com^
+||tpc.googlesyndication.com^
+||partnerad.l.doubleclick.net^
+||ad.doubleclick.net^
+||adservice.google.com^
+||adservice.google.nl^
+||adservices.google.com^
+||adservices.google.nl^
+||securepubads.g.doubleclick.net^
+||pubads.g.doubleclick.net^
+||g.doubleclick.net^
+||doubleclick.net^
+||googlesyndication.com^
+||googleleadservices.com^
+||adssettings.google.com^
+||pagead-googlehosted.l.google.com^
+||googleads.g.doubleclick.net^
 
-🔒 Alles-in-één blocklist voor AdGuard die advertenties blokkeert van:
-- Google Ads
-- YouTube Ads
-- Google Shopping Ads
+! === YouTube Ads ===
+||youtube.com/api/stats/ads^
+||youtube.com/pagead/^
+||youtube.com/get_midroll_info^
+||googlevideo.com/videoplayback?*&adformat=*
+||googlevideo.com/videoplayback?*&oad=*
+||googlevideo.com/videoplayback?*&ctier=A
+||r[0-9]+---sn-.*\.googlevideo\.com^
+||youtubei.googleapis.com^$important,redirect=nooptext
+||s.youtube.com^
+||www.youtube-nocookie.com^$important
 
-## ✅ Toepassing
-Gebruik deze lijst in AdGuard (desktop, browser, Android):
-1. Open AdGuard > Instellingen > Filters > Aangepaste filters.
-2. Voeg deze URL toe (als raw link van dit bestand).
-
-## 📅 Laatste update
-- 2025-05-12
-
-## 📜 Licentie
-MIT License.
+! === Google Shopping Ads ===
+||shopping.google.com^
+||services.google.com/fh/files/emsp/*
+||www.google.com/shopping^
+||www.google.com/ads^
